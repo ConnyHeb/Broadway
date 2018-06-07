@@ -5,14 +5,28 @@ body {
 
 ul {
   list-style-type: none;
-  list-style-position: outside;
   padding: 0;
 }
 
-footer {
-  text-align: left;
+.bg-img {
+  background-image: url("../images/background.png");
+  color: white;
 }
 
-ul.footer {
-  display: inline;
+a {
+  font-size: 18px;
+  margin: 0 3px;
+  color: inherit;
+}
+
+
+
+footer {
+  text-align: left;
+  color: white;
+  background-color: dimgray;
+}
+
+#copyright {
+  font-size: 11px;
 }
